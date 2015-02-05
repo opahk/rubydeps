@@ -28,6 +28,7 @@ Gem::Specification.new do |s|
     "spec/rubydeps_spec.rb",
     "spec/spec_helper.rb"
   ]
+  s.extensions = ['ext/call_site_analyzer/extconf.rb']
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
